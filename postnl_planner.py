@@ -2,6 +2,10 @@
 #   POST-NL    PLANNER   #
 ##########################
 
+# Visuele ondersteuning: https://github.com/wannes015/mi_examen/blob/master/postnl_planner_stratenplan.jpg
+# Oplossing zie : https://github.com/wannes015/mi_examen
+
+
 # Yay, na 5 jaar zwoegen bent ge eindelijk afgestudeerd als volwaardige burgie.
 # Na veel zoeken naar een toffe job komt ge uiteindelijk terecht bij PostNL. (basically de postduif van BOL.com)
 # Je job bestaat uit het ontwikkelen van een programma dat een optimale route voor jouw chauffeurs zoekt.
@@ -70,6 +74,7 @@ def efficient_move(stratenplan, par_sol, latest_pos, updated_pos):
 
 def examine(stratenplan, package_count, par_sol):
     # TIP: gebruikt de functie is kruispunt om te checken of een positie al dan niet meer dan 2 keer mag voorkomen
+    # (Uiteraard beter als je dit niet gebruikt en zelf iets verzint)
     pass
 
 
@@ -100,6 +105,8 @@ start = (0, 1)
 package_count = 4
 
 assert solve(stratenplan, package_count, [start]) == 22
+
+
 
 ### HARD VERSION - programma moet al enigzins efficient werken om dit op te kunnen lossen (bij mij duurt het een drietal seconden)
 

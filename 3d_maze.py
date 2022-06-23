@@ -1,7 +1,3 @@
-CONTINUE = "CONTINUE"
-ACCEPT = "ACCEPT"
-ABANDON = "ABANDON"
-
 # _____/\\\\\\\\\\___/\\\\\\\\\\\\_______________/\\\\____________/\\\\_____________________________________________
 #  ___/\\\///////\\\_\/\\\////////\\\____________\/\\\\\\________/\\\\\\_____________________________________________
 #   __\///______/\\\__\/\\\______\//\\\___________\/\\\//\\\____/\\\//\\\_____________________________________________
@@ -12,6 +8,8 @@ ABANDON = "ABANDON"
 #        _\///\\\\\\\\\/___\/\\\\\\\\\\\\/_____________\/\\\_____________\/\\\_\//\\\\\\\\/\\__/\\\\\\\\\\\__\//\\\\\\\\\\_
 #         ___\/////////_____\////////////_______________\///______________\///___\////////\//__\///////////____\//////////__
 
+# Oplossing zie : https://github.com/wannes015/mi_examen
+
 # SPELREGELS
 ##########################
 # 1. De speler kan enkel naar aanliggende posities gaan (niet schuin)
@@ -20,6 +18,10 @@ ABANDON = "ABANDON"
 # 4. Elke positie mag maar 1 keer bezocht worden
 
 # Doel: bepaal de lengte van het kortst mogelijke pad gegeven de start en eind positie
+
+CONTINUE = "CONTINUE"
+ACCEPT = "ACCEPT"
+ABANDON = "ABANDON"
 
 def examine(maze, end, par_sol):
     pass
